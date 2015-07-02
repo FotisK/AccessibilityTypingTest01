@@ -1,0 +1,126 @@
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+html,body {
+    height:100%;
+    margin:0;
+    font-family: 'Montserrat', 'sans-serif';
+    //color:#424242;
+    color:white;
+    overflow: hidden;
+    background-color: rgb(53, 48, 48);
+  }
+
+.textline {
+  //background-color: rgb(60, 60, 60);
+  background-color: darkblue;
+  color:yellow;
+  width: 100%;
+  height: 150px;
+  display: table-caption;
+}
+
+.character {
+  //background-color: rgb(82, 82, 82);
+  background-color: blue;
+  color:yellow;
+  display: table-caption;
+  width: 100%;
+  text-align: center;
+}
+
+#buttonback {
+  display: table-cell;
+  width: 30%;
+  background-color: yellow;
+  color:blue;
+  height: 100px;
+}
+
+#buttonbackspace {
+  display: table-cell;
+  width: 40%;
+  background-color: blue;
+  color:yellow;
+  height: 100px;
+}
+
+#buttonforward {
+  display: table-cell;
+  width: 30%;
+  background-color: yellow;
+  color:blue;
+  height: 100px;
+}
+
+  .display {
+    text-align: center;
+    display: block;
+    height: 100%;
+    margin: 0;
+    z-index: 0;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+  }
+
+.wrap {
+  display: table;
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+  p {
+    font-size: 100px; /* For lamers who don't support viewport sizing */
+    font-size:40vmin;
+    text-align: center;
+    margin: 0;
+  }
+
+	p.longstring {
+    font-size: 95px;
+    font-size: 15vmin;
+    text-align: left;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+	}
+p.bigtext{
+  font-size: 15px;
+  font-size: 5vmin;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  display: block;
+  position: fixed;
+  left: 0;
+  background-color: darkblue;
+  color:yellow;
+  overflow-y: auto;
+  height: 18px;
+  height: 6vmin;
+  
+}
+
+p.keycode-display {
+  font-size: 55vmin;
+}
+
+  p.text-display {
+    display: inline-block;
+    color: yellow;
+    font: bold 20px arial;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: darkblue;
+    border-radius: 4px;
+  }

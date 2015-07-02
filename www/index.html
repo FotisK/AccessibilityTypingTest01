@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Typer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="display">
+      <div class="wrap" aria-live="polite" aria-atomic="true">
+        <div class="textline unselectable">
+          <p class="longstring unselectable"></p>
+        </div>
+        <div class="character unselectable">
+          <p class="keycode-display unselectable" style="pointer-events: none"></p> 
+          <!-- <p class="text-display unselectable" style="pointer-events: none">Press on the changing character to pick it </br> press on the bottom left button to switch between latin and numeric </br> press on the bottom-middle button to delete a character </br> press on the bottom right button to clear all words</p> -->
+          <p class="bigtext unselectable">Press on the changing character to pick it </br> press on the bottom left button to switch between latin and numeric </br> press on the bottom-middle button to delete a character </br> press on the bottom right button to clear all words
+          </p>
+        </div>
+        <div id="buttonback" class="unselectable">
+        </div>
+        <div id="buttonbackspace" class="unselectable">
+        </div>
+        <div id="buttonforward" class="unselectable">
+        </div>		
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
